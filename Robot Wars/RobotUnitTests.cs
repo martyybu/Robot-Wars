@@ -15,7 +15,7 @@ namespace Robot_Wars
         {
             // Creating the robot and map
             Robot robot = new Robot(0, 2, 'E');
-            Map map = new Map(5, 5);
+            Map map = new Map(4, 4);
 
             // Setting up the movement instructions
             string MovementInstructions = "MLMRMMMRMMRR";
@@ -71,7 +71,7 @@ namespace Robot_Wars
         public void Scenario3()
         {
             Robot robot = new Robot(2, 2, 'W');
-            Map map = new Map(5, 5);
+            Map map = new Map(4, 4);
 
             string MovementInstructions = "MLMLMLM RMRMRMRM";
 
@@ -98,7 +98,7 @@ namespace Robot_Wars
         public void Scenario4()
         {
             Robot robot = new Robot(1, 3, 'N');
-            Map map = new Map(5, 5);
+            Map map = new Map(4, 4);
 
             string MovementInstructions = "MMLMMLMMMMM";
 

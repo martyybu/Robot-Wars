@@ -11,11 +11,15 @@ namespace Robot_Wars
         public int Width;
         public int Height;
 
+        /// <summary>
+        /// Robot wars map
+        /// </summary>
+        /// <param name="Width">Width of the map (maximum X coordinate)</param>
+        /// <param name="Height">Height of the map (maximum Y coordinate)</param>
         public Map(int Width, int Height)
         {
-            // Offset by 1 to adhere to the '25 possible coordinate positions' requirement
-            this.Width = Width - 1;
-            this.Height = Height - 1;
+            this.Width = Width;
+            this.Height = Height;
         }
     }
 }

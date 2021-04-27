@@ -56,7 +56,7 @@ namespace Robot_Wars
                 case 'N':
                     // If robot direction is North and the map is wide enough for the robot move up,
                     // process the movement otherwise add a penalty for hitting the border of the map
-                    if (robot.CoordinateY < map.Width)
+                    if (robot.CoordinateY < map.Height)
                     {
                         robot.CoordinateY++;
                     }
